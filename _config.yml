@@ -30,7 +30,7 @@ twitter_username:
 github_username:  g-ledain
 
 # Build settings
-theme: chirpy
+theme: minimal
 plugins:
   - jekyll-feed
 
