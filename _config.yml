@@ -20,6 +20,8 @@
 
 title: Mathsinthevoid
 domain: g-ledain.github.io
+markdown: kramdown
+mathjax: true
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   A place for me to talk into the void about maths.
