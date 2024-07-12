@@ -2,7 +2,7 @@
 layout: post
 title:  "An elementary Galois theory-covering theory dictionary (part 1)"
 date:   2023-06-26 00:00:00 +0100
-categories: galois theory, covering spaces
+categories: 
 ---
 There is a deep analogy between Galois theory and the theory of covering spaces. Understanding and making formal the details of this analogy requires the sophisticated language and machinery of scheme theory. However, it is possible to state the basic ideas of the analogy in an entirely elementary fashion, needing no knowledge beyond a first course in Galois theory and a first course on the fundamental group. This is what I want to do here.
 

@@ -21,10 +21,9 @@
 title: Mathsinthevoid
 domain: g-ledain.github.io
 markdown: kramdown
-mathjax: true
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  A place for me to talk into the void about maths.
+  A place for me to talk into the void about maths
 baseurl: "/mathsinthevoid/" # the subpath of your site, e.g. /blog
 url: "https://g-ledain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
