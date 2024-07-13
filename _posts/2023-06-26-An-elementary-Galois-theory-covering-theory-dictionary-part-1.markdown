@@ -164,7 +164,7 @@ Let <span>$K$</span> be a field. The separable closure <span>$K^\text{sep}$</spa
 
 ![]({{ site.baseurl }}/assets/img/separable_closure.png)
 
-*Fig 2b: The separable closure*
+*Fig 5b: The separable closure*
 
 The separable closure is somewhat similar to the algebraic closure, and in fact always embeds into it as a <span>$K$</span>-extension (since separable extensions are by definition algebraic). For fields of characteristic 0 and finite fields, we have <span>$K^\text{sep} \cong K^\text{alg}$</span> (indeed, this is the case over any so-called 'perfect field').
 

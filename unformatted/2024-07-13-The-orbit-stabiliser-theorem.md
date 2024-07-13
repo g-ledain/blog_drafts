@@ -1,6 +1,6 @@
-# Basic definitions and facts
-
 I never fully appreciated the orbit-stabiliser theorem at university. Since then I've better understood its relationship with Lagrange's theorem and come to appreciate it as a consequence of one of my favourite theorems: the first isomorphism theorem, in all its guises.
+
+# Basic definitions and facts
 
 ## Definitions: Orbit, stabiliser, fixed-point
 Let $G$ be a group acting on a set $X$. We define
