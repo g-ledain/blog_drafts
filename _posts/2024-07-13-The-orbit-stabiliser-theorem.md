@@ -47,7 +47,7 @@ In particular, when <span>$G$</span> and <span>$X$</span> are finite, we have fo
 
 Proof: 
 Since <span>$G.x = \textrm{Im}(\rho_x)$</span>, the sets evidently partition <span>$G$</span>. But 
-<div>$$\rho_x(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$</div> 
+<div>$$\rho_x^{-1}(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$</div> 
 so they are equinumerous.
 
 Note the similarity to Lagrange's theorem, which says that for a subgroup <span>$H$</span> of a group <span>$G$</span>, the cosets of <span>$H$</span> partition <span>$G$</span> and are equinumerous. The similarity can be made more explicit by the following formulation of the theorem:
