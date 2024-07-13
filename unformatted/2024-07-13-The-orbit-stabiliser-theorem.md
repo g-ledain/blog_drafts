@@ -47,7 +47,7 @@ $$|\textrm{Orb}(x)| |\textrm{Stab}(x)| =|G| $$
 
 Proof: 
 Since $G.x = \textrm{Im}(\rho_x)$, the sets evidently partition $G$. But 
-$$\rho_x(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$ 
+$$\rho_x^{-1}(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$ 
 so they are equinumerous.
 
 Note the similarity to Lagrange's theorem, which says that for a subgroup $H$ of a group $G$, the cosets of $H$ partition $G$ and are equinumerous. The similarity can be made more explicit by the following formulation of the theorem:
