@@ -1,6 +1,23 @@
 import re
 import os
 
+def leadingContainsNewline(myString: str)-> bool:
+    newString = myString
+    if newString == "":
+        return False
+    while newString[0].isspace():
+        if newString == "":
+            return False
+        if newString[0]=="\n":
+            return True
+        else:
+            newString = newString[1:]
+    return False
+
+def trailingContainsNewline(myString: str) -> bool:
+    return leadingContainsNewline(myString[::-1])
+        
+
 thisDir = os.path.dirname(os.path.realpath(__file__))
 for subdir, dirs, files in os.walk(os.path.join(thisDir,"unformatted")):
     for file in files:
@@ -10,22 +27,34 @@ for subdir, dirs, files in os.walk(os.path.join(thisDir,"unformatted")):
         #see https://stackoverflow.com/questions/35004800/regex-match-a-dollar-without-a-backslash-before-it
         dollars=re.findall(latexRegex,rawFileText)
         body=re.split(latexRegex,rawFileText)
-        parsed=""
+        parsed=body[0]
         for i in range(len(dollars)):
-            parsed+=body[i]
-            if dollars[i]=="$$":
+            dollarPart=dollars[i]
+            bodyPart = body[i+1]
+            newLine=""
+            mathMode=""
+            
+            if dollarPart=="$$":
+                mathMode="display"
                 tag="div"
-            if dollars[i]=="$":
+            if dollarPart=="$":
+                mathMode="inline"
                 tag="span"
             
-            if i%2==0:
+            if i%2==0:#opening delimiter
+                if not trailingContainsNewline(body[i]) and mathMode=="display":
+                    newLine="\n"
+                parsed+=newLine
                 parsed+="<"+tag+">"
-                parsed+=dollars[i]
-            if i%2!=0:
-                parsed+=dollars[i]
+                parsed+=dollarPart 
+            if i%2!=0:#closing delimiter
+                if not leadingContainsNewline(bodyPart) and mathMode=="display":
+                    newLine="\n"
+                parsed+=dollarPart
                 parsed+="</"+tag+">"
+                parsed+=newLine
+            parsed+=bodyPart
             
-        parsed+=body[-1]
         with open(os.path.join(thisDir,"_posts",file),"w") as parsedFile:
             parsedFile.write(parsed)
             parsedFile.close()
