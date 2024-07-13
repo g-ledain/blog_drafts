@@ -31,6 +31,8 @@ github_username:  g-ledain
 # Build settings
 markdown: kramdown
 theme: minima
+exclude: 
+ - unformatted
 plugins:
   - jekyll-feed
 
