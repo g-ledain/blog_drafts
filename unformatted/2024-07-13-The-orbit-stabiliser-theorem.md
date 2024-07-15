@@ -40,13 +40,13 @@ Proof: exercise
 
 ## Theorem: Orbit-Stabiliser theorem (first formulation)
 Let $G$ be a group acting on a set $X$ via an action $\rho: G\times X \to X$ and fix $x\in X$. Then the sets 
-$$\{\rho_x^{-1}(\{y\})\} $$ 
+$$\{\rho_x^{-1}(\{y\}): y\in G.x\} $$ 
 are equinumerous and partition $G$.
 In particular, when $G$ and $X$ are finite, we have for any $x\in X$ that 
 $$|\textrm{Orb}(x)| |\textrm{Stab}(x)| =|G| $$
 
 Proof: 
-Since $G.x = \textrm{Im}(\rho_x)$, the sets evidently partition $G$. But 
+Since $G.x = \textrm{Im}(\rho_x)$, the sets evidently partition $G$. But for $y\in G.x$ we have
 $$\rho_x^{-1}(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$ 
 so they are equinumerous.
 
@@ -56,7 +56,7 @@ Note the similarity to Lagrange's theorem, which says that for a subgroup $H$ of
 Let $\rho :G\times X\to X$ be an action of a group $G$ on a set $X$ and fix $x\in X$. Define an equivalence relation $\sim$ on $G$ by 
 $$g\sim h \Leftrightarrow g.x = h.x $$
 Then 
-$$G/\sim = G/\textrm{Stab(x)} $$
+$$G/\sim \cong G/\textrm{Stab(x)} $$
  and by the "first isomorphism theorem for $G$-sets". we get an isomorphism of $G$-sets
 $$\tilde{\rho_x}: G/\textrm{Stab}(x) \tilde{\to} G.x $$ 
 $$g\mapsto g.x $$

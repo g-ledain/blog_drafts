@@ -40,13 +40,13 @@ Proof: exercise
 
 ## Theorem: Orbit-Stabiliser theorem (first formulation)
 Let <span>$G$</span> be a group acting on a set <span>$X$</span> via an action <span>$\rho: G\times X \to X$</span> and fix <span>$x\in X$</span>. Then the sets 
-<div>$$\{\rho_x^{-1}(\{y\})\} $$</div> 
+<div>$$\{\rho_x^{-1}(\{y\}): y\in G.x\} $$</div> 
 are equinumerous and partition <span>$G$</span>.
 In particular, when <span>$G$</span> and <span>$X$</span> are finite, we have for any <span>$x\in X$</span> that 
 <div>$$|\textrm{Orb}(x)| |\textrm{Stab}(x)| =|G| $$</div>
 
 Proof: 
-Since <span>$G.x = \textrm{Im}(\rho_x)$</span>, the sets evidently partition <span>$G$</span>. But 
+Since <span>$G.x = \textrm{Im}(\rho_x)$</span>, the sets evidently partition <span>$G$</span>. But for <span>$y\in G.x$</span> we have
 <div>$$\rho_x^{-1}(\{g.x\})=g\textrm{Stab}(x) = g\rho_x^{-1}(\{x\}) $$</div> 
 so they are equinumerous.
 
@@ -56,7 +56,7 @@ Note the similarity to Lagrange's theorem, which says that for a subgroup <span>
 Let <span>$\rho :G\times X\to X$</span> be an action of a group <span>$G$</span> on a set <span>$X$</span> and fix <span>$x\in X$</span>. Define an equivalence relation <span>$\sim$</span> on <span>$G$</span> by 
 <div>$$g\sim h \Leftrightarrow g.x = h.x $$</div>
 Then 
-<div>$$G/\sim = G/\textrm{Stab(x)} $$</div>
+<div>$$G/\sim \cong G/\textrm{Stab(x)} $$</div>
  and by the "first isomorphism theorem for <span>$G$</span>-sets". we get an isomorphism of <span>$G$</span>-sets
 <div>$$\tilde{\rho_x}: G/\textrm{Stab}(x) \tilde{\to} G.x $$</div> 
 <div>$$g\mapsto g.x $$</div>
