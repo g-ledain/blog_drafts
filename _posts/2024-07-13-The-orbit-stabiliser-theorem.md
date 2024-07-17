@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The orbit-stabiliser theorem"
+date:   2024-07-13 00:00:00 +0100
+categories: 
+---
+
 I never fully appreciated the orbit-stabiliser theorem at university. Since then I've better understood its relationship with Lagrange's theorem and come to appreciate it as a consequence of one of my favourite theorems: the first isomorphism theorem, in all its guises.
 
 # Basic definitions and facts
