@@ -40,7 +40,7 @@ Let <span>$G$</span> be a group and <span>$S\subseteq G$</span>. We define:
  - The normaliser of <span>$S$</span> to be 
 <div>$$N_G(S):=\{ g\in G: gSg^{-1}= S\} $$</div>
 
-When <span>$H$</span> is a subgroup of <span>$G$</span>, the normaliser <span>$N_G(H)$</span> is the largest subgroup of <span>$G$</span> in which <span>$H$</span> is normal. However the centraliser is _not_ the largest subgroup of <span>$G$</span> in which <span>$S$</span> is central. However if <span>$S$</span> is _commutative_, then <span>$N_G(S)$</span> is the largest subgroup of <span>$G$</span> such that <span>$N_G(S)$</span> in which <span>$S$</span> is central.
+When <span>$H$</span> is a subgroup of <span>$G$</span>, the normaliser <span>$N_G(H)$</span> is the largest subgroup of <span>$G$</span> in which <span>$H$</span> is normal. However in general the centraliser is _not_ the largest subgroup of <span>$G$</span> in which <span>$S$</span> is central. When <span>$S$</span> is _commutative_, then <span>$C_G(S)$</span> *is* the largest subgroup of <span>$G$</span> such that <span>$C_G(S)$</span> in which <span>$S$</span> is central.
 
 The above definitions are best understood as follows: Since <span>$G$</span> acts on <span>$G$</span> by conjugation, it therefore also acts on <span>$\mathcal{P}(G)$</span>. The normaliser <span>$N_G(S)$</span> is then the stabiliser of <span>$S$</span>. The difference between the centraliser and normaliser of <span>$S$</span> is the difference between a set being fixed _as a set_ and being fixed _pointwise_.
 

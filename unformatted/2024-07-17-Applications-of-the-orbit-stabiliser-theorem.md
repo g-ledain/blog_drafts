@@ -35,7 +35,7 @@ Let $G$ be a group and $S\subseteq G$. We define:
  - The centraliser of $S$ to be $$C_G(S):=\{g\in G: gsg{-1}=s \text{ for all } s\in S\} = \bigcap_{s\in S} C_G(s) $$
  - The normaliser of $S$ to be $$N_G(S):=\{ g\in G: gSg^{-1}= S\} $$
 
-When $H$ is a subgroup of $G$, the normaliser $N_G(H)$ is the largest subgroup of $G$ in which $H$ is normal. However the centraliser is _not_ the largest subgroup of $G$ in which $S$ is central. However if $S$ is _commutative_, then $N_G(S)$ is the largest subgroup of $G$ such that $N_G(S)$ in which $S$ is central.
+When $H$ is a subgroup of $G$, the normaliser $N_G(H)$ is the largest subgroup of $G$ in which $H$ is normal. However in general the centraliser is _not_ the largest subgroup of $G$ in which $S$ is central. When $S$ is _commutative_, then $C_G(S)$ *is* the largest subgroup of $G$ such that $C_G(S)$ in which $S$ is central.
 
 The above definitions are best understood as follows: Since $G$ acts on $G$ by conjugation, it therefore also acts on $\mathcal{P}(G)$. The normaliser $N_G(S)$ is then the stabiliser of $S$. The difference between the centraliser and normaliser of $S$ is the difference between a set being fixed _as a set_ and being fixed _pointwise_.
 

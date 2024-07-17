@@ -1,0 +1,1 @@
+I never remembered, let alone understood, the proofs of Sylow's theorems (even consistently stating the third one correctly gave me trouble).
