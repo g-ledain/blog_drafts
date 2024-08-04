@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sylow's theorems"
-date:   2024-07-17 00:00:00 +0100
+date:   2024-08-04 00:00:00 +0100
 categories: 
 ---
 

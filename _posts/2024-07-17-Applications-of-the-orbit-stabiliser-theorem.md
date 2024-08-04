@@ -10,7 +10,7 @@ The orbit-stabiliser theorem is a theorem about group actions on sets but it rea
 # The conjugation action
 
 ## The action
-We have already seen how a group <span>$G$</span> acts on itself and on any collection of cosets <span>$G/H$</span> by left-multiplication - the action is transitive and has stabiliser <span>$H$</span>. There is another action of <span>$G$</span> on itself which always exists - the conjugation action. Specifically, we have any action
+We have already seen how a group <span>$G$</span> acts on itself and on any collection of cosets <span>$G/H$</span> by left-multiplication - the action is transitive and has stabiliser <span>$H$</span>. There is another action of <span>$G$</span> on itself which always exists - the conjugation action. Specifically, we have an action
 <div>$$ G\times G \to G $$</div>
 <div>$$ g.h := ghg^{-1}$$</div>
 This action has the advantage that conjugation is always an automorphism - so its "curried" form gives a map <span>$G \to \textrm{Hom}_{\textrm{Grp}}(G,G)$</span> rather than simply a map <span>$G \to \textrm{Hom}_{\textrm{Set}}(G,G)$</span> which one would normally have for a group action[^quotients]. 
