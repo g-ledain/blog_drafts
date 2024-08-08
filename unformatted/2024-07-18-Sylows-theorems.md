@@ -123,7 +123,7 @@ We have $n_p \cong 1 \text{ mod } p$. Consequently $p | u$, where $|G|=p^nu$ and
 Unlike the first two Sylow theorems, I only know essentially one way to prove the third Sylow theorem, which is to consider the conjugation action of a fixed Sylow subgroup on the set of Sylow subgroups. One then shows the following fact:
 
 *Important lemma:*\
-Let $G$ be a finite group and $\textrm{Syl}_p = \{ P_1,\ldots,P_m \}$ be the set of its Sylow subgroups. Then the orbits of $\textrm{Syl}_p$ under the conjugation action by $P_i$ are exactly $\{P_i\}$ and a collection of orbits with order divisible by $p$. Hence $\textrm{Orb}_G(P_i)  \equiv  1 \text{ mod } p$.
+Let $G$ be a finite group and $\textrm{Syl}_p = \{ P_1,\ldots,P_m \}$ be the set of its Sylow subgroups. Then the orbits of $\textrm{Syl}_p$ under the conjugation action by $P_i$ are exactly $\{P_i\}$ and a collection of orbits each of which has order divisible by $p$. Hence $\textrm{Orb}_G(P_i)  \equiv  1 \text{ mod } p$.
 
 Notice for example that once one has the transitivity of the action of $G$ on $\textrm{Syl}_p$ (i.e. Sylow II), then Sylow III immediately follows. In essence, this is a 'decategorification' to the level of sets of the congrucence $n_p \equiv 1 \text{ mod } p$.
 
